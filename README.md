@@ -20,16 +20,16 @@ git clone https://github.com/APAC-Medivance/medivance-backend.git
 - Then, go to `Project Settings`
 - And then, go to `Service Accounts`
 - In `Service Accounts`, Generate your new private key
-  > [!NOTE]
-  > Make sure you are in "Firebase Admin SDK".
+> [!NOTE]
+> Make sure you are in "Firebase Admin SDK".
 
 - After that, the file will automatically downloaded as JSON file.
-  > [!IMPORTANT]
-  > After downloading JSON Files, rename the file to `serviceAccountKey.json`.
+> [!IMPORTANT]
+> After downloading JSON Files, rename the file to `serviceAccountKey.json`.
 
 - Copy the JSON file into `config` folder
-  > [!NOTE]
-  > If it's empty or not define, just create the `config` folder
+> [!NOTE]
+> If it's empty or not define, just create the `config` folder
 
 
 ### 3. Setup the environment
