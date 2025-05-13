@@ -17,6 +17,7 @@
     "dev-local": "npx nodemon index.js"
   },
   "dependencies": {
+    "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "firebase-admin": "^13.3.0"

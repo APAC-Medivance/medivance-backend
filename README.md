@@ -28,22 +28,33 @@ git clone https://github.com/APAC-Medivance/medivance-backend.git
 > After downloading JSON Files, rename the file to `serviceAccountKey.json`.
 
 - Copy the JSON file into `config` folder
-> [!NOTE]
-> If it's empty or not define, just create the `config` folder
 
 
 ### 3. Setup the environment
-> [!NOTE]
-> You must put database URL in `URL`.
 
-Take a look at this code on `.env.example` : 
+> [!IMPORTANT]
+> Please copy `.env.example` files in `config` folder, and rename it into `.env`
+
+Take a look at this code on `config/.env.example` : 
+
 ```bash
-URL= # This is your database URL
+FIREBASE_WEB_API_KEY= # If you want to use auth, it's important to fill this key
+DB_URL= # This is your database URL from Firebase
 PORT= # This is port of your apps, Default is 3000
 ```
 
 ### 4. Run the app
 
+For development, use this command : 
+```bash
+npm run dev
+```
+or, if you want locally from packages, use this command : 
+```bash
+npm run dev-local
+```
+
+For release, use this command : 
 ```bash
 npm start
 ```
